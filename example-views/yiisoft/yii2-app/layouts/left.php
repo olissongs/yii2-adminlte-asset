@@ -9,7 +9,7 @@
     <div class="sidebar">
 
         <nav class="mt-2">
-            <?= dmstr\adminlte\widgets\Menu::widget(
+            <?= olissongs\adminlte\widgets\Menu::widget(
                 [
                     'options' => ['class' => 'nav nav-pills nav-sidebar flex-column', 'data-widget' => 'treeview'],
                     'items' => [
