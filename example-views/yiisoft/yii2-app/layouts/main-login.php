@@ -5,7 +5,7 @@ use yii\helpers\Html;
 /** @var \yii\web\View $this */
 /** @var string $content */
 
-dmstr\adminlte\web\AdminLteAsset::register($this);
+olissongs\adminlte\web\AdminLteAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ dmstr\adminlte\web\AdminLteAsset::register($this);
             <?= Html::a('<b>Admin</b>LTE', ['/site/login']); ?>
         </div>
 
-        <?= \dmstr\adminlte\widgets\Alert::widget(); ?>
+        <?= \olissongs\adminlte\widgets\Alert::widget(); ?>
 
         <?= $content ?>
     </div>
