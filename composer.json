@@ -38,11 +38,7 @@
             "url": "https://github.com/olissongs/yii2-adminlte-asset.git"
         }
     ],
-    "extra": {
-        "branch-alias": {
-            "dev-master": "3.x-dev"
-        }
-    },
+    
     "require-dev": {
         "roave/backward-compatibility-check": "^2.0"
     }
