@@ -1,3 +1,5 @@
+TESTING PURPOSE
+
 AdminLTE Asset Bundle
 =====================
 
@@ -24,13 +26,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 To install AdminLTE v2 run:
 
 ```
-composer require dmstr/yii2-adminlte-asset "^2.1"
+composer require olissongs/yii2-adminlte-asset "^2.1"
 ```
 
 To install AdminLTE v1 run:
 
 ```
-composer require dmstr/yii2-adminlte-asset "^1"
+composer require olissongs/yii2-adminlte-asset "^1"
 ```
 
 FAQ
