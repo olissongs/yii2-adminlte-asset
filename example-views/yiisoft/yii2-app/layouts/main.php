@@ -23,8 +23,8 @@ if (Yii::$app->controller->action->id === 'login') {
         app\assets\AppAsset::register($this);
     }
 
-    dmstr\adminlte\web\AdminLteAsset::register($this);
-    dmstr\adminlte\web\FontAwesomeAsset::register($this);
+    olissongs\adminlte\web\AdminLteAsset::register($this);
+    olissongs\adminlte\web\FontAwesomeAsset::register($this);
 
     $directoryAsset = Yii::$app->assetManager->getPublishedUrl('@vendor/almasaeed2010/adminlte/dist');
 ?>
